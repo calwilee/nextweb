@@ -1,7 +1,7 @@
 import Image from "next/image";
 
 import  Description  from "./components/description";
-import Navbar from "./components/navBar";
+import Navbar from "./components/Navbar";
 import Aboutme from "./components/Aboutme";
 
 
