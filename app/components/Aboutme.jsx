@@ -77,8 +77,8 @@ const Aboutme = () => {
         />
         <div>
             <h1 className='text-3xl mt-3 mb-3 md:mt-0 lg:mt-0'>About Me</h1>
-            <p className='text-base text-white '>
-                Hey, I'm Calwin 👋🏻. I am a rising junior at UCSD double majoring in Data Science and Applied Mathamatics. Currently, I serve as an instructional assistant for DSC40B (algorithms). Currently, I am building a couple of fullstack ML projects with hopes of finding an internship this summer 😅.  
+            <p className='text-base text-white'>
+                Hey, I`&apos;`m Calwin 👋🏻. I am a rising junior at UCSD double majoring in Data Science and Applied Mathamatics. I serve as an instructional assistant for DSC40B (algorithms). Currently, I am building a couple of fullstack ML projects with hopes of finding an internship this summer 😅  
             </p>
             
             <div className='flex flex-row mt-3'>
