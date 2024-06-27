@@ -35,8 +35,8 @@ const projectsData = [
 
 const Projectsection = () => {
   return (
-    <section id = 'projects'>
-    <h2 className='text-center text-3xl mb-5 text-white'>
+    <section>
+    <h2 className='text-left md:text-center text-3xl mb-5 text-white'>
         Projects
     </h2>
     <div className='grid md:grid-cols-3 gap-8 md:gap-12'>

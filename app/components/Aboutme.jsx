@@ -13,8 +13,7 @@ const TAB_DATA = [
                 <li>ML Pipelines</li>
                 <li>Database Desgin</li>
                 <li>ML Pipelines</li>
-                <li>ML Pipelines</li>
-                <li>ML Pipelines</li>
+                
             </ul>
         ),
         mobilecontent: (
@@ -33,7 +32,6 @@ const TAB_DATA = [
                 <li>Java</li>
                 <li>React</li>
                 <li>R</li>
-                <li>ML Pipelines</li>
             </ul>
         ),
         mobilecontent: (
@@ -60,8 +58,8 @@ const Aboutme = () => {
 
 
   return (
-    <section className='text-white' id = "aboutme">
-      <div className='md:grid md:grid-cols-2 gap-8 items-centered py-8 px-4 xl:gap-16 sm:py-16 xl:px-16'>
+    <section className='text-white'>
+      <div className='md:grid md:grid-cols-2 gap-8 items-centered py-0 md:px-4 xl:gap-16 sm:py-16 xl:px-16'>
         <Image
             className=' md:hidden lg:hidden'
             src = "/images/t.png" 
@@ -80,8 +78,7 @@ const Aboutme = () => {
         <div>
             <h1 className='text-3xl mt-3 mb-3 md:mt-0 lg:mt-0'>About Me</h1>
             <p className='text-base text-white '>
-                Hi, Im calwin space complexity where d is the depth of the solthe shortest path) and b is the branching factor (the average number of successors per state), as it stores all generated node
-
+                Hey, I'm Calwin 👋🏻. I am a rising junior at UCSD double majoring in Data Science and Applied Mathamatics. Currently, I serve as an instructional assistant for DSC40B (algorithms). Currently, I am building a couple of fullstack ML projects with hopes of finding an internship this summer 😅.  
             </p>
             
             <div className='flex flex-row mt-3'>

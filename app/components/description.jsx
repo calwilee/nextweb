@@ -40,8 +40,8 @@ const description = () => {
                         ]}
                         wrapper="span"
                         speed={50}
-                        style={{ fontSize: '1em', display: 'inline-block' }}
-x                        />
+                        style={{ fontSize: '1em', display: 'inline-block' }}                       
+                    />
                 </h1>
                 
                 <p className='text-white text-base:sm text-lg  mb-6 lg:text-xl'>
@@ -70,8 +70,8 @@ x                        />
                         //src = "https://steamuserimages-a.akamaihd.net/ugc/770616950637706003/8FF807E120B2942915834FE4CA204D44658CB2A0/?imw=637&imh=358&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true"
                         alt = "pixelart"
                         className='absolute  -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2'
-                        width = {300}
-                        height = {300}
+                        width = {500}
+                        height = {500}
                     />
                     
                 </div>

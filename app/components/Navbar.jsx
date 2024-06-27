@@ -21,7 +21,7 @@ import Home from '../page';
     },
     {
         title: 'Contact',
-        path: '#Contact',
+        path: 'https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&su=Hi+Calwin!&to=calwinlee@gmail.com',
 
     },
 ]
