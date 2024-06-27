@@ -20,8 +20,6 @@ const TAB_DATA = [
         mobilecontent: (
             <p>
                 ML pipelines, comptuer vision, communication
-                
-
             </p>
         )
     },
@@ -41,8 +39,6 @@ const TAB_DATA = [
         mobilecontent: (
             <p>
                 Python, Java, React, R
-                
-
             </p>
         )
     }
@@ -64,7 +60,7 @@ const Aboutme = () => {
 
 
   return (
-    <section className='text-white'>
+    <section className='text-white' id = "aboutme">
       <div className='md:grid md:grid-cols-2 gap-8 items-centered py-8 px-4 xl:gap-16 sm:py-16 xl:px-16'>
         <Image
             className=' md:hidden lg:hidden'
@@ -83,7 +79,7 @@ const Aboutme = () => {
         />
         <div>
             <h1 className='text-3xl mt-3 mb-3 md:mt-0 lg:mt-0'>About Me</h1>
-            <p className='text-base text-[#585c60]'>
+            <p className='text-base text-white '>
                 Hi, Im calwin space complexity where d is the depth of the solthe shortest path) and b is the branching factor (the average number of successors per state), as it stores all generated node
 
             </p>

@@ -11,12 +11,12 @@ import Home from '../page';
     const navlinks = [
     {
         title: 'About',
-        path: '#About',
+        path: '#aboutme',
 
     },
     {
         title: 'Projects',
-        path: '#Projects',
+        path: '#projects',
 
     },
     {

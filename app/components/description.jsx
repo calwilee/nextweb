@@ -43,11 +43,13 @@ const description = () => {
                         style={{ fontSize: '1em', display: 'inline-block' }}
 x                        />
                 </h1>
-                <p className='text-[#656a6e] text-base:sm text-lg  mb-6 lg:text-xl'>
+                
+                <p className='text-white text-base:sm text-lg  mb-6 lg:text-xl'>
+                   
                     A Data Science and Applied Math student at <a className = "text-[#4474cf] font-bold" target='_blank' href="https://ucsd.edu/">UCSD</a>
                 </p>
                 <div>
-                    <a target = "blank" href = "https://google.com">
+                    <a target = "blank" href = "/calwin_li_resume.pdf">
                     <button className = "px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-[#4474cf] border-2 border-[#4474cf] hover:bg-[#4a78cd] hover:border-[#4a78cd]  text-white mb-3">Resume</button>
                     </a>
                     
