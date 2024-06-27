@@ -46,7 +46,7 @@ const description = () => {
                 
                 <p className='text-white text-base:sm text-lg  mb-6 lg:text-xl'>
                    
-                    A Data Science and Applied Math student at <a className = "text-[#4474cf] font-bold" target='_blank' href="https://ucsd.edu/">UCSD</a>
+                    Data Science and Applied Math at <a className = "text-[#4474cf] font-bold" target='_blank' href="https://ucsd.edu/">UCSD</a>
                 </p>
                 <div>
                     <a target = "blank" href = "/calwin_li_resume.pdf">
