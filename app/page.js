@@ -26,7 +26,7 @@ export default function Home() {
 
         <Description/>
         <div className= "h-60 md:h-20"></div>
-        <div className=" md:hidden animate-bounce container flex justify-center"> <ChevronDoubleDownIcon className="h-6 y-6"/> </div>
+        <div className=" md:hidden animate-bounce container flex justify-center text-slate-200"> <ChevronDoubleDownIcon className="h-6 y-6"/> </div>
         <div id = "aboutme" className= "h-40 md:h-29"></div>
         </Fade>
 
