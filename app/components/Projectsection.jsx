@@ -6,7 +6,7 @@ const projectsData = [
     {
         id: 2,
         title: "League Exploratory Data Analysis",
-        description: "EDA for Leauge of legends match data. Utilized Python, Pandas, and Numpy to clean Data as well as preform analysis.",
+        description: "EDA for Leauge of Legends match data. Utilized Python, Pandas, and Numpy to clean Data as well as preform analysis.",
         image: "./images/projects/bananalysis.png",
         link: "https://calwilee.github.io/LoLEDA/",
     },
