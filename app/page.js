@@ -21,7 +21,7 @@ export default function Home() {
     <main className="flex min-h-screen flex-col bg-[url('./images/pillars.jpg')] bg-cover ">
       <Navbar/>
       <div className = "container mt-20 mx-auto px-12 py-4">
-        <Fade duration={2000} triggerOnce = {true}fraction={.9}>
+        <Fade duration={2200} triggerOnce = {true}fraction={.9}>
         <div className= "h-36 md:h-40"></div>
 
         <Description/>
@@ -31,13 +31,13 @@ export default function Home() {
         </Fade>
 
         
-        <Fade duration={2000} triggerOnce = {true}fraction={.4}>
+        <Fade duration={2200} triggerOnce = {true}fraction={.4}>
 
         <Aboutme/>
         </Fade>
 
         
-        <Fade duration={2000} triggerOnce = {true} fraction={.1}>
+        <Fade duration={2200} triggerOnce = {true} fraction={.1}>
 
 
         <div  className= "h-10 md:h-20"></div>

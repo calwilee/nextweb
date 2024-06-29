@@ -5,31 +5,32 @@ import description from './description';
 const projectsData = [
     {
         id: 2,
-        title: "League of Legends Ban Analysis",
-        description: "Preformed data analysis on ___ points for with pandas numpy and matplotlib",
+        title: "League Exploratory Data Analysis",
+        description: "EDA for Leauge of legends match data. Utilized Python, Pandas, and Numpy to clean Data as well as preform analysis.",
         image: "./images/projects/bananalysis.png",
         link: "https://calwilee.github.io/LoLEDA/",
     },
     {
         id: 3,
-        title: "League of Legends Win Model",
-        description: "Analzyed data from ____ used scikit learn random forrest classifer, data analasa sa   ",
+        title: "League Win Model",
+        description: "Tuned and Implemented random forrest classfier. Enginered features with Pandas and Numpy operaitons. Preformed Fairness analysis on final model, with final test accuracy of 96%",
         image: "./images/projects/winmodel.png",
         link: "https://calwilee.github.io/LoLML/"
     },
     {
         id: 1,
-        title: "Tic Tac Toe app",
+        title: "Tic Tac Toe App",
         description: "Utilized Html, CSS, JavaScript and React to build a basic tic tac toe app",
         image: "./images/projects/tictactoe.png",
         link: "https://calwilee.github.io/tic-tac-toe/",
     },
     {
         id: 4,
-        title: "Tic Tac Toe App",
-        description: "Utilized Html, CSS, JavaScript and React to build a basic tic tac toe app",
-        image: "./images/projects/tictactoe.png",
-    }
+        title: "NLP N-gram Model",
+        description: "Used a token based system to generate text from corpus using tri-gram model. Will link to project repo when established!",
+        image: "./images/projects/nlp.png",
+        link: "#projects",
+    },
 ] 
 
 

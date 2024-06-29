@@ -9,7 +9,7 @@ const Footer = () => {
     <footer className='footer  border-t-[#1e1eff00] border-l-transparent border-r-transparent mt-10 md:mt-20'>
     <div className='container p-12 flex justify-between'>
         <div className='flex flex-row space-x-4 '>
-          transcend
+          
         </div>
         
 

@@ -10,15 +10,17 @@ const TAB_DATA = [
         id: "Skills",
         content: (
             <ul>
-                <li>ML Pipelines</li>
-                <li>Database Desgin</li>
-                <li>ML Pipelines</li>
+                <li>machine learning</li>
+                <li>database desgin</li>
+                <li>data analysis</li>
+                <li>data visualization</li>
+
                 
             </ul>
         ),
         mobilecontent: (
             <p>
-                ML pipelines, comptuer vision, communication
+                machine learning, database desgin, data analysis, data visualization
             </p>
         )
     },
@@ -30,13 +32,13 @@ const TAB_DATA = [
             <ul>
                 <li>Python</li>
                 <li>Java</li>
-                <li>React</li>
+                <li>Pandas</li>
                 <li>R</li>
             </ul>
         ),
         mobilecontent: (
             <p>
-                Python, Java, React, R
+                Python, Java, Pandas, R
             </p>
         )
     }
@@ -78,7 +80,7 @@ const Aboutme = () => {
         <div>
             <h1 className='text-3xl mt-3 mb-3 md:mt-0 lg:mt-0'>About Me</h1>
             <p className='text-base text-white'>
-                Hey, I&apos;m Calwin 👋🏻. I am a rising junior at UCSD double majoring in Data Science and Applied Mathamatics. I serve as an instructional assistant for DSC40B (algorithms). Currently, I am building a couple of fullstack ML projects with hopes of finding an internship this summer 😅  
+                Hey, I&apos;m Calwin 👋🏻. I am a rising junior at UCSD double majoring in Data Science and Applied Mathamatics. I serve as an instructional assistant for DSC40B (algorithms). Currently, I am attempting to building a couple of fullstack ML projects 😊
             </p>
             
             <div className='flex flex-row mt-3'>
