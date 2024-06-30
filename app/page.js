@@ -22,7 +22,7 @@ export default function Home() {
       <Navbar/>
       <div className = "container mt-20 mx-auto px-12 py-4">
         <Fade duration={2200} triggerOnce = {true}fraction={.9}>
-        <div className= "h-36 md:h-40"></div>
+        <div className= "h-20 md:h-40"></div>
 
         <Description/>
         <div className= "h-40 md:h-20"></div>
