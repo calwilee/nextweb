@@ -12,17 +12,19 @@ import Home from '../page';
     {
         title: 'About',
         path: '#aboutme',
+        target: '_self',
 
     },
     {
         title: 'Projects',
         path: '#projects',
+        target: '_self',
 
     },
     {
         title: 'Contact',
         path: 'https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&su=Hi+Calwin!&to=calwinlee@gmail.com',
-
+        target: '_blank',
     },
 ]
 
@@ -46,24 +48,23 @@ const Navbar = () => {
                 <div className='mobile-menu block md:hidden'>
                     {
                         !navbarOpen ? (
-                            <button onClick = {() => setNavbarOpen(true)} className='flex items-center px-3 py-2  text-slate-200 hover:text-white hover:border-white'>
+                            <button onClick = {() => setNavbarOpen(true)} className='flex items-center px-3 py-1  text-slate-200 hover:text-white hover:border-white'>
                                 <Bars3Icon className='h-7 w-7'/> 
                             </button>
                         ) : (
-                            <button onClick = {() => setNavbarOpen(false)} className='flex items-center px-3 py-2 text-slate-200 hover:text-white hover:border-white'>
+                            <button onClick = {() => setNavbarOpen(false)} className='flex items-center px-3 py-1 text-slate-200 hover:text-white hover:border-white'>
                                 <XMarkIcon className='h-7 w-7'/> 
                             </button>
                         )
                     }
                 </div>
 
-
                 <div className='menu hidden md:block md:w-auto' id = 'navbar'> 
                     <ul className = "flex p-4 md:p-0 md:flex-row md:space-x-8 mt-0">
                         {
                             navlinks.map((link, index) => (
                                 <li key = {index}>
-                                    <Navlink href = {link.path} title = {link.title}/>
+                                    <Navlink href = {link.path} title = {link.title} target = {link.target}/>
                                 </li>
                             ))
                         }
